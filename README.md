@@ -2,7 +2,9 @@
 
 Data Source:http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html
 
-We apply PCA on CelebA dataset. In order to save time, we only apply PCA to 2000 images with the smaller size (219,178,3) instead of all full images in the dataset. Here is the line chart of  decay of the singular values (The chart only use the largest 20 of them):
+We apply PCA on CelebA dataset. In order to save time, we only apply PCA to 2000 images with the smaller size (219,178,3) instead of all full images in the dataset. The smaller dataset can be access in folder './smallerdata/'.
+
+Here is the line chart of  decay of the singular values (The chart only use the largest 20 of them):
 
 ![Singular Value Decay](result/singular-value-decay.png)
 
